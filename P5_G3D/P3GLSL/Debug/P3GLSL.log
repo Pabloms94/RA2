@@ -1,0 +1,40 @@
+﻿Compilación iniciada a las 24/04/2017 13:37:40.
+     1>Proyecto "C:\Users\Pablo\Desktop\Master\RA\P5_G3D\P3GLSL\P3GLSL.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\libs\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt scr\main.cpp
+         main.cpp
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\splines.h(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : vea la declaración de 'fopen'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\splines.h(122): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : vea la declaración de 'fscanf'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\splines.h(133): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : vea la declaración de 'fscanf'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\splines.h(235): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : vea la declaración de 'fopen'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\splines.h(244): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : vea la declaración de 'fscanf'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\splines.h(259): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : vea la declaración de 'fscanf'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\camera.h(25): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(90): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(92): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(93): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(95): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(270): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(316): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\pablo\desktop\master\ra\p5_g3d\p3glsl\scr\main.cpp(331): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pablo\Desktop\Master\RA\P5_G3D\P3GLSL\Debug\P3GLSL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs\lib FreeImage.lib opengl32.lib freeglut.lib glew32.lib "assimp-vc120-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Pablo\Desktop\Master\RA\P5_G3D\P3GLSL\Debug\P3GLSL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pablo\Desktop\Master\RA\P5_G3D\P3GLSL\Debug\P3GLSL.lib" /MACHINE:X86 /SAFESEH Debug\auxiliar.obj
+         Debug\Camera.obj
+         Debug\GLSLProgram.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\Scene.obj
+         Debug\Texture.obj
+         P3GLSL.vcxproj -> C:\Users\Pablo\Desktop\Master\RA\P5_G3D\P3GLSL\Debug\P3GLSL.exe
+     1>Compilación del proyecto terminada "C:\Users\Pablo\Desktop\Master\RA\P5_G3D\P3GLSL\P3GLSL.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.48
